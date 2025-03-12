@@ -1,0 +1,162 @@
+/* Réinitialisation des marges et paddings, et définition de la boîte de modèle */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ADLaM Display', cursive; /* Police d'écriture par défaut */
+}
+
+/* Styles du corps de la page */
+body {
+    background-color: #f5f5f5; /* Couleur de fond gris clair */
+    color: #333; /* Couleur du texte gris foncé */
+    min-height: 100vh; /* Hauteur minimale = hauteur de l'écran */
+    display: flex;
+    flex-direction: column; /* Organise le contenu en colonne */
+}
+
+/* Styles du header */
+header {
+    background-color: #1e88e5;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Structure du header */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Place "Yco-Drive" à gauche et logo Ynov à droite */
+    align-items: center; /* Centre verticalement */
+}
+
+
+/* Conteneur principal avec une largeur max et un centrage */
+.container {
+    max-width: 1200px; /* Largeur max */
+    margin: 0 auto; /* Centre le conteneur */
+    padding: 1rem; /* Espacement intérieur */
+}
+
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacement max entre les éléments */
+    align-items: center; /* Centre verticalement */
+}
+
+/* Style des logos */
+.logo {
+    font-size: 1.8rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Boutons d'authentification (Inscription & Connexion) */
+.auth-buttons {
+    display: flex;
+    gap: 1rem; /* Espacement entre les boutons */
+}
+
+/* Styles généraux des boutons */
+.btn {
+    padding: 0.6rem 1.2rem; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    font-weight: 500; /* Texte semi-gras */
+    cursor: pointer; /* Curseur au survol */
+    transition: all 0.3s ease; /* Animation fluide */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+/* Bouton principal (ex : Connexion) */
+.btn-primary {
+    background-color: #ffffff; /* Fond blanc */
+    color: #1e88e5; /* Texte bleu */
+    border: none; /* Pas de bordure */
+}
+
+/* Bouton secondaire (ex : Inscription) */
+.btn-secondary {
+    background-color: transparent; /* Fond transparent */
+    color: white; /* Texte blanc */
+    border: 2px solid white; /* Bordure blanche */
+}
+
+/* Effet au survol des boutons */
+.btn:hover {
+    transform: translateY(-2px); /* Soulève légèrement le bouton */
+}
+
+/* Section principale (Hero) */
+.hero {
+    display: flex;
+    flex-direction: column; /* Organise en colonne */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    flex-grow: 1; /* Prend tout l’espace disponible */
+    padding: 2rem 0; /* Espacement intérieur */
+    text-align: center; /* Texte centré */
+}
+
+/* Contenu de la section Hero */
+.hero-content {
+    max-width: 800px; /* Largeur max */
+}
+
+/* Titre principal */
+.hero-content h1 {
+    font-size: 3.5rem; /* Taille très grande */
+    margin-bottom: 1rem; /* Espacement en bas */
+    color: #1e88e5; /* Couleur bleue */
+}
+
+/* Texte de description */
+.hero-content p {
+    font-size: 1.2rem; /* Taille légèrement agrandie */
+    margin-bottom: 2rem; /* Espacement en bas */
+    line-height: 1.6; /* Hauteur de ligne plus grande */
+    color: #555; /* Gris foncé */
+}
+
+/* Section contenant les boutons de la section Hero */
+.hero-buttons {
+    margin-top: 2rem; /* Espacement au-dessus */
+}
+
+/* Boutons plus grands */
+.btn-large {
+    padding: 1rem 2rem; /* Espacement plus grand */
+    font-size: 1.2rem; /* Texte plus grand */
+}
+
+/* Bouton avec un contour bleu */
+.secondary-outline {
+    background-color: transparent; /* Fond transparent */
+    color: #1e88e5; /* Texte bleu */
+    border: 2px solid #1e88e5; /* Bordure bleue */
+}
+
+/* Pied de page */
+footer {
+    background-color: #333; /* Fond noir/gris */
+    color: white; /* Texte blanc */
+    padding: 1rem 0; /* Espacement intérieur */
+    text-align: center; /* Texte centré */
+    margin-top: auto; /* Place le footer en bas */
+}
+
+/* Style pour la marque Yco (Logo + Texte) */
+.yco-brand {
+    display: flex; /* Affichage en ligne */
+    align-items: center; /* Centre verticalement */
+    gap: 10px; /* Espacement entre le logo et le texte */
+}
+
+/* Style du logo Yco */
+.yco-logo, .ynov-logo {
+    height: 40px; /* Hauteur du logo */
+}
+
+/* Style du texte Yco-Drive */
+.logo-text {
+    font-size: 24px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+}
