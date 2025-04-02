@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Réinitialisation des marges et paddings, et définition de la boîte de modèle */
 *{
     margin: 0;
@@ -163,8 +163,4 @@ footer {
 .logo-text {
     font-size: 24px; /* Taille du texte */
     font-weight: bold; /* Texte en gras */
-=======
-.h1{
-    color: aquamarine;
->>>>>>> a7db7c616b8cb6590112a949731ce72e42e70698
 }
