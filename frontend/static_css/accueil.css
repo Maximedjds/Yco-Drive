@@ -54,6 +54,8 @@ header {
 .auth-buttons {
     display: flex;
     gap: 1rem; /* Espacement entre les boutons */
+    justify-content: center;
+    color: #1e88e5;
 }
 
 /* Styles généraux des boutons */
@@ -64,20 +66,21 @@ header {
     cursor: pointer; /* Curseur au survol */
     transition: all 0.3s ease; /* Animation fluide */
     text-decoration: none; /* Supprime le soulignement */
+    color: #1e88e5;
 }
 
 /* Bouton principal (ex : Connexion) */
 .btn-primary {
     background-color: #ffffff; /* Fond blanc */
     color: #1e88e5; /* Texte bleu */
-    border: none; /* Pas de bordure */
+    border: 2px solid dodgerblue;
 }
 
 /* Bouton secondaire (ex : Inscription) */
 .btn-secondary {
-    background-color: transparent; /* Fond transparent */
-    color: white; /* Texte blanc */
-    border: 2px solid white; /* Bordure blanche */
+    background-color: #ffffff; /* Fond transparent */
+    color: #1e88e5; /* Texte blanc */
+    border: 2px solid dodgerblue
 }
 
 /* Effet au survol des boutons */
