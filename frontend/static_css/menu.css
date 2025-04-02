@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+}
+.menu-content {
+    display: none;
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.menu-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}
+.menu-content a:hover {
+    background: #f0f0f0;
+}
+.section {
+    display: none;
+    padding: 20px;
+}
+.profile {
+    text-align: center;
+}
